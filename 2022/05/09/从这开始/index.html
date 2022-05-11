@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.1.0">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
@@ -14,12 +13,13 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"berlin2022.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideUpBigIn","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"berlin2022.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideUpBigIn","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="新手入门Obsidian的忠告">
 <meta property="og:type" content="article">
@@ -52,6 +52,7 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
+<link rel="alternate" href="/atom.xml" title="记笔记专用" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -88,7 +89,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-rss"><a href="/atom.xml" rel="section"><i class="fa fa-rss fa-fw"></i>RSS</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-photos"><a href="/photos/" rel="section"><i class="fa fa-picture fa-fw"></i>photos</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -178,6 +179,21 @@
 </div>
   <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
+        <a href="mailto:yourname@gmail.com" title="E-Mail → mailto:yourname@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/yourname" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.jianshu.com/u/yourname" title="简书 → https:&#x2F;&#x2F;www.jianshu.com&#x2F;u&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-jianshu fa-fw"></i>简书</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/yourname" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-csdn fa-fw"></i>CSDN</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.bilibili.com/" title="Bilibili → https:&#x2F;&#x2F;www.bilibili.com&#x2F;" rel="noopener" target="_blank">Bilibili</a>
+      </span>
+      <span class="links-of-author-item">
         <a href="https://github.com/Berlin2022" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Berlin2022" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
   </div>
@@ -200,8 +216,34 @@
     </ul>
   </div>
 
+<script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+<div class="widget-wrap">
+    <h3 class="widget-title">��ǩ��</h3>
+    <div id="myCanvasContainer" class="widget tagcloud">
+        <canvas width="250" height="250" id="resCanvas" style="width=100%">
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mysql/" rel="tag">Mysql</a><span class="tag-list-count">1</span></li></ul>
+        </canvas>
+    </div>
+</div>
+
+
         </div>
       </div>
+
+      
+      <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+      <div class="widget-wrap">
+          <h3 class="widget-title">Tag Cloud</h3>
+          <div id="myCanvasContainer" class="widget tagcloud">
+              <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mysql/" rel="tag">Mysql</a><span class="tag-list-count">1</span></li></ul>
+              </canvas>
+          </div>
+      </div>
+      
+
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -271,6 +313,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
 </div>
 
         </div>
@@ -282,14 +339,9 @@
     <div class="post-body" itemprop="articleBody">
         <h2 id="新手入门Obsidian的忠告"><a href="#新手入门Obsidian的忠告" class="headerlink" title="新手入门Obsidian的忠告"></a>新手入门Obsidian的忠告</h2><p><a target="_blank" rel="noopener" href="https://forum-zh.obsidian.md/t/topic/4040">本人对obsidian新手的建议（2022版本） - 经验分享 - Obsidian 中文论坛</a></p>
 <h2 id="从这里开始，了解Topaz"><a href="#从这里开始，了解Topaz" class="headerlink" title="从这里开始，了解Topaz"></a>从这里开始，了解Topaz</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">本[Examples库](https://github.com/cumany/Blue-topaz-examples)由Cuman建立，Tips教程由BT主题作者3F撰写。</span><br><span class="line">本库是一个包含Obsidian基本功能的入门库，并内置了Obsidian的常用插件。</span><br><span class="line">特别感谢@Johnny @Lillianwho  @lavi @成雙酱 @锋华 提供的教程和创作思路。</span><br><span class="line">如果有问题或者建议 请加入Topaz社区[Topaz QQ群](https://jq.qq.com/?_wv=1027&amp;k=TWGhXs40)  [Obsidian频道](https://qun.qq.com/qqweb/qunpro/share?_wv=3&amp;_wwv=128&amp;inviteCode=zHpby&amp;from=246610&amp;biz=ka)  [Cuman的B站](https://b23.tv/2Uqt2dn)</span><br></pre></td></tr></table></figure>
-
 <h2 id="MOC"><a href="#MOC" class="headerlink" title="MOC"></a>MOC</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">- **快速导航**</span><br><span class="line">	- `button-richeng`</span><br><span class="line">	- `button-kanban`</span><br><span class="line">	- `button-suibi2`</span><br><span class="line">	-  `button-renwu2`</span><br><span class="line">	- 👉 `$= &#x27;[[日记统计#&#x27;+ moment().format(&quot;YYYY-MM&quot;) +&#x27;|当月日记]]&#x27;`</span><br><span class="line">- **教程**</span><br><span class="line">	- [Cuman的B站](https://b23.tv/2Uqt2dn)</span><br><span class="line">	- [[🥑Blue Topaz Themes Tips|🥑 主题TIPS]]</span><br><span class="line">	- [[魔方配色设置说明|🎲 魔方配色]]</span><br><span class="line">	- [[分栏效果示例|💶 分栏效果]]</span><br><span class="line">	- [[伪看板-yaml声明|📊 伪看板]]</span><br><span class="line">	- [[ob提示框(callout)样式展示|🌈Callout效果]]</span><br><span class="line"></span><br><span class="line">- **帮助**</span><br><span class="line">	- [[css基础教学|🥏 CSS教学]]</span><br><span class="line">	- [[MarkDown教程 Obsidian版 2022.4.22|📙 Markdown超级教程]]</span><br><span class="line">	- [Obsidian中文教程](https://publish.obsidian.md/chinesehelp/README)</span><br><span class="line">	- [[Johnny学OB 资料汇总|💾 Johnny学OB]]</span><br><span class="line">	- [[Lillian Who Obsidian新手入门教程| 🥠 Ob新手入门教程系列]]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
 <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```dataview</span><br><span class="line">list from &quot;00-Tips&quot;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line"></span><br><span class="line">### 最近编辑</span><br><span class="line">```dataview</span><br><span class="line">table WITHOUT ID file.link AS &quot;标题&quot;,file.mtime as &quot;时间&quot;</span><br><span class="line">from !&quot;模板&quot; and !&quot;kanban&quot;</span><br><span class="line">sort file.mtime desc</span><br><span class="line">limit 5</span><br><span class="line">```</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;div&gt;</span><br><span class="line"></span><br><span class="line">### 三天内创建的笔记</span><br><span class="line">```dataview</span><br><span class="line">table file.ctime as 创建时间</span><br><span class="line">from &quot;&quot;</span><br><span class="line">where date(today) - file.ctime &lt;=dur(3 days)</span><br><span class="line">sort file.ctime desc</span><br><span class="line">limit 5</span><br><span class="line">```</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
 <p>![[通过下拉框检索文件示例]]</p>
 <p>![[Changlog]]</p>
 <h2 id="内置插件解释"><a href="#内置插件解释" class="headerlink" title="内置插件解释"></a>内置插件解释</h2><p>![[README#内置的插件]]</p>
@@ -301,6 +353,8 @@
     
     
     
+      
+
 
     <footer class="post-footer">
           <div class="reward-container">
@@ -319,6 +373,23 @@
       </div>
 
   </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Berlin
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://berlin2022.github.io/2022/05/09/%E4%BB%8E%E8%BF%99%E5%BC%80%E5%A7%8B/" title="">https://berlin2022.github.io/2022/05/09/从这开始/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 </div>
 
           <div class="followme">
@@ -383,18 +454,35 @@
   &copy; 
   <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class=""></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Berlin</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">7k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">7 分钟</span>
+  </span>
+</div>
 
     </div>
   </footer>
 
   
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
@@ -403,11 +491,18 @@
 
 
 
+  <script src="/js/third-party/fancybox.js"></script>
 
 
   
 
 
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
 
 
 
